@@ -25,8 +25,8 @@ int votesCount1=0,
 /*==================*/
 /*  MAIN FUNCTIONS  */
 /*==================*/
-void castVote();
-void votesCount();
-void getLeadingCandidate();
+void castVote(void);
+void votesCount(void);
+void getLeadingCandidate(void);
 
 #endif  /* ELECT_H */
