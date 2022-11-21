@@ -1,8 +1,8 @@
 #ifndef ELECT_H
 #define ELECT_H
 
-#include<stdio.h>
-
+#include <stdio.h>
+#include <stdlib.h>
 /*==================*/
 /*      MACROS      */
 /*==================*/
@@ -12,15 +12,6 @@
 #define CANDIDATE2 "Bola Tinibu"
 #define CANDIDATE3 "Atiku Abubakar"
 #define CANDIDATE4 "Omoyele Sowore"
-
-/*==================*/
-/* Global Variables */
-/*==================*/
-int votesCount1=0, 
-	votesCount2=0, 
-	votesCount3=0, 
-	votesCount4=0, 
-	spoiledtvotes=0;
 
 /*==================*/
 /*  MAIN FUNCTIONS  */
